@@ -1,0 +1,19 @@
+{
+    "name": "bed/technical-test",
+    "description": "BED Technical Test",
+    "require": {
+        "php": "^8.0.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "license": [],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BED\\TechnicalTest\\": ""
+        }
+    }
+}
+
